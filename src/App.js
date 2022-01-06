@@ -72,7 +72,7 @@ class App extends Component {
     return (
       <Router history={history}>
         <div>
-          <nav className="navbar navbar-expand navbar-dark bg-dark">
+          <nav className="navbar navbar-expand">
             <Link to={"/"} className="navbar-brand">
               bezKoder
             </Link>
