@@ -1,0 +1,21 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000099;
+  --blueberry: #3c7efe;
+  --ebb: #e3e3e380;
+  --log-cabin: #212121;
+  --mist-gray: #c4c4c4;
+  --tundora: #42424699;
+  --tundora-2: #42424626;
+  --white: #ffffff;
+ 
+  --font-size-l: 17px;
+  --font-size-m: 15px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 19px;
+  --font-size-xxxl: 22px;
+  --font-size-xxxxl: 24px;
+  --font-size-xxxxxl: 25px;
+ 
+  --font-family-raleway: "Raleway", Helvetica;
+}

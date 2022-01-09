@@ -1,0 +1,8 @@
+.reward-dashboard-looking-at-a-reward-desktop {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+

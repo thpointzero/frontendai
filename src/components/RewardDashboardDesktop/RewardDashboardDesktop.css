@@ -1,0 +1,9 @@
+.reward-dashboard-desktop-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1024px;
+  padding: 0 103px;
+  width: 1440px;
+}
+

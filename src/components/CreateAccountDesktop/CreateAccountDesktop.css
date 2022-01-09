@@ -1,0 +1,7 @@
+.create-account-desktop {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1440px;
+}
+

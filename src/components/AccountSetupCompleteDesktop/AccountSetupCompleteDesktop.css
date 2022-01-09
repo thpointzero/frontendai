@@ -1,0 +1,11 @@
+.account-setup-complete-desktop {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 52px 110px;
+  width: 1440px;
+}
+

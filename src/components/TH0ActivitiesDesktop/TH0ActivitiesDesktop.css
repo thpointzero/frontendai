@@ -1,0 +1,10 @@
+.th-0-activities-desktop {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1897px;
+  padding: 52px 110px;
+  width: 1440px;
+}
+
