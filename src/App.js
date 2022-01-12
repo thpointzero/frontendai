@@ -23,6 +23,12 @@ import Activites from "./components/activites";
 import AddTutorial from "./components/AddTutorial";
 import Tutorial from "./components/Tutorial";
 import TutorialsList from "./components/TutorialsList";
+import "bootstrap/dist/css/bootstrap.min.css";
+//import "@fortawesome/fontawesome-free/css/all.css";
+//import "@fortawesome/fontawesome-free/js/all.js";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 
 import { logout } from "./actions/auth";
