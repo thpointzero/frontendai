@@ -263,6 +263,7 @@ class Login extends Component {
               />
             </div>
             <br />
+            <p className="card-text"><small className="text-muted"><a href="/forgot" onClick={this}>Forgot your password</a></small></p>
             <div className="form-group">
               <button
                 className="btn btn-primary btn-block"
@@ -289,7 +290,7 @@ class Login extends Component {
               }}
             />
           </Form>
-      <p className="card-text"><small className="text-muted">Forgot your password</small></p>
+      <p className="card-text"><small className="text-muted">Don't have an account<a href="/register" onClick={this}>Create One</a></small></p>
     </div>
   </div>
   <Board />

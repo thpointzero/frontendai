@@ -7,15 +7,23 @@ import "./App.css";
 import styled from 'styled-components';
 import Login from "./components/login.component";
 import Register from "./components/register.component";
+import Forgot from "./components/forgotpassword.component"
 import Home from "./components/home.component";
 import Dude from "./components/dude.component";
 import Dude2 from "./components/dude2.component";
+import Verifiyemail from "./components/verifiyemail.component";
 import CreateWalletDesktop from "./components/CreateWalletDesktop";
 import Profile from "./components/profile.component";
 import BoardUser from "./components/board-user.component";
 import BoardModerator from "./components/board-moderator.component";
 import BoardAdmin from "./components/board-admin.component";
 import CreateAccountDesktop1 from "./components/CreateAccountDesktop1";
+import Connectwallet from "./components/connectwallet";
+import Activites from "./components/activites";
+import AddTutorial from "./components/AddTutorial";
+import Tutorial from "./components/Tutorial";
+import TutorialsList from "./components/TutorialsList";
+
 
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
@@ -77,7 +85,7 @@ class App extends Component {
       <Router history={history}>
         <div>
           <nav className="navbar navbar-expand">
-            <Link to={"/"} className="navbar-brand">
+            <Link to={"/dude2"} className="navbar-brand">
             <img src="/th0.png" alt="Logo" />
             </Link>
             <div className="navbar-nav mr-auto">
@@ -151,10 +159,16 @@ class App extends Component {
               <Route exact path="/dude4" component={CreateWalletDesktop} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/register" component={Register} />
+              <Route exact path="/forgot" component={Forgot} />
+              <Route exact path="/verifiyemail" component={Verifiyemail} />
+              <Route exact path="/connectwallet" component={Connectwallet} />
               <Route exact path="/profile" component={Profile} />
               <Route path="/user" component={BoardUser} />
+              <Route path="/activity" component={Activites} />
               <Route path="/mod" component={BoardModerator} />
               <Route path="/admin" component={BoardAdmin} />
+              <Route path="/tutorial" component={Tutorial} />
+              <Route exact path="/tutorials" component={TutorialsList} />
             </Switch>
           </div>
 
